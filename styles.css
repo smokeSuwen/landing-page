@@ -22,6 +22,7 @@ body {
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
+    margin-bottom: 48px ;
 }
 
 .hero > * {
@@ -29,3 +30,33 @@ body {
     margin-bottom: 100px;
 }
 /* HERO section */
+
+/* INFORMATION section */
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information > * {
+    margin:  0 128px;
+}
+
+.items, .information > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* INFORMATION section */
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 426px;
+}
+
+.quote > p {
+    margin: 0;
+}
+/* QUOTE */
